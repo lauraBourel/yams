@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Yams</title>
+</head>
+
+<body>
+    <div class="row">
+        <div class="des"></div>
+        <div class="des"></div>
+        <div class="des"></div>
+        <div class="des"></div>
+        <div class="des"></div>
+        <div id="nbClick"></div>
+    </div>
+    <div class="btn">
+        <button id="play">Lancer</button>
+    </div>
+    <div class="grille">
+        <table>
+            <tbody>
+                <tr>
+                    <th>Yams</th>
+                    <th>#1</th>
+                    <th>#2</th>
+                    <th>#3</th>
+                    <th>#4</th>
+                    <th>#5</th>
+                </tr>
+                <tr>
+                    <th class="rowGrille">As <img class="imgGrille" src="assets/img/de1.png" alt="dé 1"></th>
+                    <td class="P1"></td>
+                    <td class="P2"></td>
+                    <td class="P3"></td>
+                    <td class="P4"></td>
+                    <td class="P5"></td>
+                </tr>
+                <tr>
+                    <th class="rowGrille">Deux <img class="imgGrille" src="assets/img/de2.png" alt="dé2"></th>
+                    <td class="P1"></td>
+                    <td class="P2"></td>
+                    <td class="P3"></td>
+                    <td class="P4"></td>
+                    <td class="P5"></td>
+                </tr>
+                <tr>
+                    <th class="rowGrille">Trois <img class="imgGrille" src="assets/img/de3.png" alt="dé3"></th>
+                    <td class="P1"></td>
+                    <td class="P2"></td>
+                    <td class="P3"></td>
+                    <td class="P4"></td>
+                    <td class="P5"></td>
+                </tr>
+                <tr>
+                    <th class="rowGrille">Quatre <img class="imgGrille" src="assets/img/de4.png" alt="dé4"></th>
+                    <td class="P1"></td>
+                    <td class="P2"></td>
+                    <td class="P3"></td>
+                    <td class="P4"></td>
+                    <td class="P5"></td>
+                </tr>
+                <tr>
+                    <th class="rowGrille">Cinq <img class="imgGrille" src="assets/img/de5.png" alt="dé5"></th>
+                    <td class="P1"></td>
+                    <td class="P2"></td>
+                    <td class="P3"></td>
+                    <td class="P4"></td>
+                    <td class="P5"></td>
+                </tr>
+                <tr>
+                    <th class="rowGrille">Six <img class="imgGrille" src="assets/img/de6.png" alt="dé6"></th>
+                    <td class="P1"></td>
+                    <td class="P2"></td>
+                    <td class="P3"></td>
+                    <td class="P4"></td>
+                    <td class="P5"></td>
+                </tr>
+                <tr class="grey">
+                    <th>Sous-Total</th>
+                    <td class="totaux"></td>
+                    <td class="totaux"></td>
+                    <td class="totaux"></td>
+                    <td class="totaux"></td>
+                    <td class="totaux"></td>
+                </tr>
+                <tr>
+                    <th>Bonus</th>
+                    <td class="bonus"></td>
+                    <td class="bonus"></td>
+                    <td class="bonus"></td>
+                    <td class="bonus"></td>
+                    <td class="bonus"></td>
+                </tr>
+                <tr class="grey">
+                    <th>Total</th>
+                    <td class="totalBonus"></td>
+                    <td class="totalBonus"></td>
+                    <td class="totalBonus"></td>
+                    <td class="totalBonus"></td>
+                    <td class="totalBonus"></td>
+                </tr>
+                <tr>
+                    <th class="rowGrille">Brelan</th>
+                    <td class="P1"></td>
+                    <td class="P2"></td>
+                    <td class="P3"></td>
+                    <td class="P4"></td>
+                    <td class="P5"></td>
+                </tr>
+                <tr>
+                    <th class="rowGrille">Carré</th>
+                    <td class="P1"></td>
+                    <td class="P2"></td>
+                    <td class="P3"></td>
+                    <td class="P4"></td>
+                    <td class="P5"></td>
+                </tr>
+                <tr>
+                    <th class="rowGrille">Full</th>
+                    <td class="P1"></td>
+                    <td class="P2"></td>
+                    <td class="P3"></td>
+                    <td class="P4"></td>
+                    <td class="P5"></td>
+                </tr>
+                <tr>
+                    <th class="rowGrille">Petite suite</th>
+                    <td class="P1"></td>
+                    <td class="P2"></td>
+                    <td class="P3"></td>
+                    <td class="P4"></td>
+                    <td class="P5"></td>
+                </tr>
+                <tr>
+                    <th class="rowGrille">Grande suite</th>
+                    <td class="P1"></td>
+                    <td class="P2"></td>
+                    <td class="P3"></td>
+                    <td class="P4"></td>
+                    <td class="P5"></td>
+                </tr>
+                <tr>
+                    <th class="rowGrille">Yams</th>
+                    <td class="P1"></td>
+                    <td class="P2"></td>
+                    <td class="P3"></td>
+                    <td class="P4"></td>
+                    <td class="P5"></td>
+                </tr>
+                <tr>
+                    <th>Chance</th>
+                    <td class="P1"></td>
+                    <td class="P2"></td>
+                    <td class="P3"></td>
+                    <td class="P4"></td>
+                    <td class="P5"></td>
+                </tr>
+                <tr class="grey">
+                    <th>Total</th>
+                    <td class="totaux"></td>
+                    <td class="totaux"></td>
+                    <td class="totaux"></td>
+                    <td class="totaux"></td>
+                    <td class="totaux"></td>
+                </tr>
+                <tr class="grey">
+                    <th>Total général</th>
+                    <td class="totalBonus"></td>
+                    <td class="totalBonus"></td>
+                    <td class="totalBonus"></td>
+                    <td class="totalBonus"></td>
+                    <td class="totalBonus"></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <script src="assets/js/script.js"> </script>
+</body>
+
+</html>
